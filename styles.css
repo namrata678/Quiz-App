@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Quiz App
+ * Coded by: Namrata Ingle
+ * Copyright (c) [2023] Namrata Ingle. 
+ *All rights reserved.*/
+
+  #quiz-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+  }
+  
+  #options-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #options-list li {
+    margin-bottom: 10px;
+  }
+  
+  #feedback-container {
+    margin-bottom: 20px;
+    color: #e91e63;
+  }
+  
+  #timer-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #2196f3;
+  }
+  
+  #high-scores-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #high-scores-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #high-scores-list li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
